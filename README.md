@@ -33,6 +33,7 @@ Responsivitat:
 
 Assegurar que el lloc web sigui completament responsive, adaptant-se a diferents dispositius.
 Treballar conjuntament per provar i ajustar la responsivitat.
+--------------------------------------------------------------------------------------------------------------
 Col·laboració:
 
 Utilitzar una plataforma de col·laboració com GitHub o Google Drive per compartir codi i recursos.
