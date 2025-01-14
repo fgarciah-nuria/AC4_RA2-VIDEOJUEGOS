@@ -40,17 +40,21 @@ Organitzar reunions breus per discutir el progrés i resoldre dubtes.
 Passos per al Desenvolupament del Projecte:
 --------------------------------------------------------------------------------------------------------------
 1.-Planificació Inicial:
+
 Definir el tema del videojoc i el contingut de cada pàgina.
 Dividir les tasques segons les responsabilitats de cada membre.
 --------------------------------------------------------------------------------------------------------------
 2.-Creació de Pàgines HTML:
+
 Cadascun dels membres crea les pàgines assignades, seguint una estructura coherent.
 --------------------------------------------------------------------------------------------------------------
 3.-Estilització:
+
 Col·laborar en l'estilització general del lloc web per assegurar una aparença uniforme.
 Utilitzar classes de Bootstrap per a components comuns i Flexbox per a disposicions personalitzades.
 --------------------------------------------------------------------------------------------------------------
 4.-Integració i Prova:
+
 Un cop acabades les pàgines, integrar-les en un projecte comú.
 Provar el lloc web en diferents navegadors i dispositius per assegurar-ne la funcionalitat i responsivitat.
 --------------------------------------------------------------------------------------------------------------
