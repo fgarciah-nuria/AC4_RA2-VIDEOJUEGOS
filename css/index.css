@@ -19,6 +19,7 @@ header {
     background-color: var(--white);
     display: flex;
     align-items: center;
+    /* Alinea verticalmente los elementos del header */
     justify-content: center;
     gap: 30px;
     height: 80px;
@@ -38,6 +39,31 @@ header {
     gap: 20px;
 }
 
+.options-menu a,
+.dropdown-button {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    padding: 10px 20px;
+    color: var(--black);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.dropdown-button svg {
+    height: 18px;
+}
+
+.dropdown-button:hover svg {
+    fill: var(--lollipop);
+    /* Cambia el color de la flecha cuando se hace hover */
+}
+
+.options-menu {
+    display: flex;
+    gap: 20px;
+}
+
 .options-menu a {
     position: relative;
     text-decoration: none;
@@ -49,12 +75,26 @@ header {
     transition: background-color 0.3s ease;
 }
 
+.options-menu a::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 3px;
+    background-color: var(--lollipop);
+    border-radius: 2px;
+}
+
 .options-menu a:hover {
     color: var(--lollipop);
+    /* Efecto de fondo al hover */
 }
 
 .options-menu a:hover::after {
     width: 100%;
+    /* Ancho total al hacer hover */
 }
 
 .dropdown {
@@ -63,9 +103,6 @@ header {
 }
 
 .dropdown-button {
-    color: var(--black);
-    padding: 10px 20px;
-    font-size: 16px;
     border: none;
     cursor: pointer;
 }
@@ -76,10 +113,24 @@ header {
     background-color: var(--gray);
     min-width: 160px;
     padding: 10px;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    border-top: var(--lollipop) 4px solid;
+    border-radius: 2px 2px 0 0;
+}
+
+.dropdown-content a:hover svg {
+    fill: var(--lollipop);
+    /* Cambia el color de la flecha cuando se hace hover */
+}
+
+.dropdown-content svg {
+    height: 18px;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.dropdown-content a::after {
+    content: none;
 }
