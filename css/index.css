@@ -2,6 +2,7 @@
     --white: #ffffff;
     --black: #000000;
     --gray: #292929;
+    --mediowhite: #d3d3d3;
     --background-page: #040b10;
     --lollipop: rgb(255, 70, 85);
 }
@@ -110,7 +111,7 @@ header {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: var(--gray);
+    background-color: var(--mediowhite);
     min-width: 160px;
     padding: 10px;
     z-index: 1;
@@ -118,13 +119,16 @@ header {
     border-radius: 2px 2px 0 0;
 }
 
+.dropdown-content a {
+    font-size: 14px;
+}
+
 .dropdown-content a:hover svg {
     fill: var(--lollipop);
-    /* Cambia el color de la flecha cuando se hace hover */
 }
 
 .dropdown-content svg {
-    height: 18px;
+    height: 15px;
 }
 
 .dropdown:hover .dropdown-content {
