@@ -17,6 +17,15 @@ body {
 }
 
 
+/* FUENTES  */
+
+.anton-font {
+    font-family: "Anton", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
 /* HEADER */
 
 header {
