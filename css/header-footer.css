@@ -177,6 +177,8 @@ header {
 
 .btn-jugar:hover {
     cursor: pointer;
+    background: var(--lollipop);
+    color: var(--white);
 }
 
 
