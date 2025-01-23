@@ -10,7 +10,10 @@
     width: 10%;
 }
 
-h1 {
+.primary-text {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 40px;
     color: white;
 }
 
