@@ -19,8 +19,29 @@ body {
 
 /* FUENTES  */
 
+
+/* PRIMARIA */
+
 .anton-font {
     font-family: "Anton", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* SECUNDARIA */
+
+.arimo-font {
+    font-family: "Arimo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* TERCIARIA */
+
+.yantramanav-font {
+    font-family: "Yantramanav", serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -79,8 +100,7 @@ header {
     position: relative;
     text-decoration: none;
     color: var(--black);
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 20px;
     padding: 10px 20px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
