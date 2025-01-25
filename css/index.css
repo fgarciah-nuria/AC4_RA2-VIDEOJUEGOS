@@ -184,6 +184,7 @@
 .equipo {
     display: flex;
     gap: 90px;
+    min-width: 400px;
 }
 
 
@@ -199,5 +200,35 @@
     }
     .herosection video {
         object-fit: cover;
+    }
+    .novedad {
+        align-items: center;
+        justify-content: center;
+    }
+    .guia-principiantes-contenido {
+        width: 400px;
+    }
+    .guia-principiantes-contenido-interno {
+        text-align: center;
+        gap: 0;
+    }
+    .guia-principiante-izq img {
+        display: none;
+    }
+    .guia-principiante-drch {
+        align-items: center;
+        width: 400px;
+    }
+    .h1-guia-principiante-drch {
+        font-size: 40px;
+    }
+    .descripcion-guia-principiante {
+        width: 200px;
+    }
+    .rondas,
+    .equipo {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
     }
 }
