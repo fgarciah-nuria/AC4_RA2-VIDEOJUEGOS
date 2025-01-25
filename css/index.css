@@ -122,90 +122,68 @@
 .guia-principiantes-contenedor {
     display: flex;
     justify-content: center;
-    padding: 20px;
+    margin: 60px;
 }
 
 .guia-principiantes-contenido {
     display: flex;
-    max-width: 1400px;
     flex-wrap: wrap;
-    gap: 20px;
-    max-height: 1000px;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/guiaprincipiantes.jpg);
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../assets/guiaprincipiantes.jpg);
+    height: 650px;
 }
 
-.guia-principiante-izq,
-.guia-principiante-drch {
-    flex: 1;
-    min-width: 300px;
+.guia-principiantes-contenido-interno {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    gap: 40px;
+    width: 1225px;
+    gap: 80px;
 }
 
 .guia-principiante-izq img {
-    max-width: 100%;
-    max-height: 80%;
-    height: auto;
+    height: 600px;
 }
 
-.descripcion-guia-principiante {
-    margin-top: 20px;
-    font-size: 20px;
-    line-height: 1.5;
-    color: var(--white);
-}
-
-.color-lolipop {
-    color: #ff4655;
+.guia-principiante-drch {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
 }
 
 .h1-guia-principiante-drch {
-    color: #ff4655;
+    color: var(--lollipop);
     font-size: 70px;
 }
 
 .descripcion-guia-principiante {
-    font-size: 30px;
-    width: 600px;
-    text-align: center;
+    width: 500px;
+    color: var(--white);
+    font-size: 20px
+}
+
+.descripcion-guia-principiante .color-lolipop {
+    color: var(--lollipop);
 }
 
 .guia-principiante-drch-interno {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 40px;
+    color: var(--white);
+}
+
+.guia-principiante-drch-interno p {
+    width: 175px;
+    font-size: 20px;
 }
 
 .rondas,
 .equipo {
     display: flex;
-    gap: 20px;
-}
-
-.rondas-interno,
-.equipo-interno {
-    flex: 1;
-    padding: 20px;
-    border-radius: 8px;
-    color: var(--white);
-}
-
-.rondas-interno p,
-.equipo-interno p {
-    font-size: 20px;
-}
-
-.guiaprincipiante-izq p {
-    font-size: 35px;
-    color: var(--white);
-    width: 450px;
-}
-
-.color-lolipop {
-    color: var(--lollipop);
+    gap: 90px;
 }
 
 
