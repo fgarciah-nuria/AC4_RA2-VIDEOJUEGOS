@@ -104,4 +104,5 @@ html {
 
 .card:hover .description-agent {
     opacity: 1;
+    cursor: pointer;
 }
