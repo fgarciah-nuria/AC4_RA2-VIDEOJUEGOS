@@ -122,7 +122,6 @@
 .guia-principiantes-contenedor {
     display: flex;
     justify-content: center;
-    margin: 60px;
 }
 
 .guia-principiantes-contenido {
@@ -207,6 +206,8 @@
     }
     .guia-principiantes-contenido {
         width: 400px;
+        margin-bottom: 30px;
+        height: auto;
     }
     .guia-principiantes-contenido-interno {
         text-align: center;
